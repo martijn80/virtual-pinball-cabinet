@@ -135,6 +135,8 @@ Onderstaande onderdelen zijn nodig voor in of op de ombouw en dus handig tijdens
 | Stekkerblok | | incl stekkers | 8,50 cm | 7,00 cm | 32,00 cm
 | Speakers ? |
 
+
+
 1. Let op de videokaart hoogte optellen bij die van het moederbord
 2. Alle monitoren hebben een VESA 10mm beugelbevestiging, maak de plank echter 15cm hoog, zodat ze wat vlees hebben om op te steunen
 3. De backglass poster is vaak 2/3 van de backbox, waardoor 1/3 overblijft voor speaker en dmd paneel.
@@ -144,9 +146,9 @@ Onderstaande onderdelen zijn nodig voor in of op de ombouw en dus handig tijdens
 
 ### Benodigde knoppen 
 
-- 1 x grote ronde launch button
-- 2 x 2 flipper buttons (naast de flipper, eentje voor nudge of magna safe)
-- 2 x vierkante coin en start 
+- 1 x grote ronde launch button 63mm, inbouw 24 mm diameter, 55 mm montage diepte
+- 2 x 2 flipper buttons (naast de flipper, eentje voor nudge of magna safe), 34 mm en inbouw 24 mm en 55 mm montage diepte
+- 2 x vierkante coin en start 44mm x 44mm, inbouw 24 mm diameter, 62 mm montage diepte
 - Extra ball
 - Exit
 - On/Off
