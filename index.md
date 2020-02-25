@@ -115,6 +115,8 @@ In mijn geval stond monitor niet op de snelste modus. Zoek dus in je On Screen D
 
 ### Afmetingen
 
+Onderstaande onderdelen zijn nodig voor in of op de ombouw en dus handig tijdens het schetsen alle maten hiervan op een rijtje te hebben.
+
 | Monitor | Verh | Resolutie | Hoogte  | Breedte | Bezel | Diepte |
 |---|:---:|---:|---:|---:|---:|---:|
 | Playfield | 18,7:9
@@ -130,6 +132,8 @@ In mijn geval stond monitor niet op de snelste modus. Zoek dus in je On Screen D
 | Moederbord mini ATX | | | 24,00 cm | 24,40 cm
 | Moederbord micro ATX | | | 17,00 cm | 17,00 cm
 | Voeding | | | 14,00 cm | 16,00 cm | 9,00 cm
+| Stekkerblok | | incl stekkers | 8,50 cm | 7,00 cm | 32,00 cm
+| Speakers ? |
 
 1. Let op de videokaart hoogte optellen bij die van het moederbord
 2. Alle monitoren hebben een VESA 10mm beugelbevestiging, maak de plank echter 15cm hoog, zodat ze wat vlees hebben om op te steunen
