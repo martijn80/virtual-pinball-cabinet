@@ -6,31 +6,34 @@ Ik had nog twee ongebruikte 19" en 23,8" monitors die ik mooi als backbox en pla
 
 Er zijn genoeg tekeningen online te vinden van het traditionele ontwerp van een pinball cabinet, maar zoals gezegd vind ik dit geen mooi ontwerp. Dus ben ik gaan schetsen en klooien in Fusion360 (een CAD tekenprogramma) om te kijken welk ontwerp ik gaaf vind. Het doel is om een beetje een retro arcade achtige uitstraling te krijgen. Dus t-molding, ronde hoeken gecombineerd met hoekige lijnen. Verder is een eis dat het playfield niet op de tafel rust maar verhoogt (met pootjes oid), ivm koeling en speakers in de onderplaat die lucht en bewegings ruimte moeten hebben. De hoek van het playfield moet ik nog mee spelen, maar ik verwacht iets van 10-15 graden. Tot slot wil ik graag een Kinect bovenop de kast zetten zodat mbv Better Arcade Mode (BAM) in Future Pinball een soort 3D weergave mogelijk is, waardoor het playfield heel realistisch eruit ziet en je echt om objecten in het speelveld heen kunt kijken (door de headtracking van de Kinect).
 
-Het mooie aan Fusion360 is dat (als het goed is) je met je ontwerp naar een houtzagerij kan gaan en dat zij op basis van die tekeningen je planken kunnen "uitprinten", CNC-en heet dit. Daarnaast ontdek je door het klooien in 3D al vroeg knelpunten in je ontwerp, voordat je het laten produceren en je dan dus met een probleem zit. Dat scheelt dus heel wat frustratie, tijd en geld. Het aanpassen van je ontwerp is met een paar muisklikken gefixt en zo kan je een paar versies ontwerpen waar je er eentje uitpikt om echt te gaan maken. Voor het schetsen in Fusion was het handig dat ik alle maten van de onderdelen bij de hand had, vandaar de tabel met afmetingen.
+Het mooie aan Fusion360 is dat (als het goed is) je met je ontwerp naar een houtzagerij kan gaan en dat zij op basis van die tekeningen je planken kunnen "uitprinten", CNC-en heet dit. Daarnaast ontdek je door het klooien in 3D al vroeg knelpunten in je ontwerp, voordat je het laten produceren en je dan dus met een probleem zit. Dat scheelt dus heel wat frustratie, tijd en geld. En ik heb gemerkt dat je al gauw varianten op je ontwerpen gaat maken, waardoor je soms heel anders eindigt met waarmee je begon (had ook zonde geweest van al het hout en materiaal). Voor het schetsen in Fusion was het handig dat ik alle maten van de onderdelen bij de hand had, vandaar de tabel met afmetingen.
 
 ### Windows instellen
 
-Paralel aan het tekenen van het cabinet in Fusion360 ben ik aan de slag gegaan met installeren en configureren van de Pinball software. Zo kon ik al snel zien of ik alles aan de praat zou krijgen en kon ik alvast een beetje pinballen. De software die ik gebruik draait uitsluitend op Windows. 
+Paralel aan het tekenen van het cabinet in Fusion360 ben ik aan de slag gegaan met het installeren en configureren van de Pinball software. Ik speelde uitsluitend op de PS4 Pinball FX3 en heb alle tot nu 96 tafels aangeschaft. De kasten die zij hebben gemaakt hebben animaties en scenes die nooit op een echte kast mogelijk zouden zijn, bijna videogame achtig, wat ik juist heel vet vind. Dit is ook uitgebracht voor PC via Steam op Windows met een zgn cabinet mode. Cabinet mode maakt oa mogelijk je de DMD (scores) en backglass op een ander scherm kunt weergeven. Gebruik niet de versie via de Windows store - daar werkt de cabinet mode niet. Daarnaast bestaat er een enorme community van mensen die zelf digitale/virtual pinball kasten maken mbv Future Pinball. Dit is dus gratis, maar is niet plug and play zoals FX3. Het aan de praat krijgen van BAM was dan ook aardig wat geklooi. 
 
 Installeren van Future Pinball
+
 todo 
 
 Tafels downloaden
 
 Instellen van de juiste kijkhoek 
+
 F6 
 
-Installeren van Steam en Pinball FX3
-
-Dit is het makkelijkst, maar kost ook geld. 
-
-Direct een Pinball FX3 tafel starten
+Pinball FX3
+Installeren van Steam en Pinball FX3 is eenvoudig, hoef ik niet uit te leggen. Maar wat je wel moet weten, is dat je direct een Pinball FX3 tafel kunt starten (zonder in Steam zelf eerst naar het spel te hoeven navigeren),
 
 - Maak een shortcut met als doel "C:\Program Files (x86)\Steam\Steam.exe" -applaunch 442120 -class -table_"Citadel"
 - De opties -silent en -tenfoot werkte bij niet
+- De beschikbare table names vind je hier (let op deze tafel moet je wel aangeschaft hebben) : C:\Program Files (x86)\Steam\steamapps\common\Pinball FX3\data\steam
+
+Direct deze tafel openen bij het opstarten van de PC
 - Windows toets + r 
 - Type shell:startup
 - Zet de shortcut in de map neer die door het vorige commande werd geopend
+- Wanneer je nu herstart, start deze tafel gelijk
 
 Andere toepassingen die opstarten uitzetten
 
@@ -43,6 +46,15 @@ Windows Gaming Bar / Balk uitzetten
 
 Dit stoort namelijk tijdens het spelen met een soort game bar in je scherm en dat wil je niet
 Zoek op Gamebalk en schakel dit uit
+
+Sticky keys uitzetten
+
+De shift keys zijn bij alle Pinball spellen de flipper buttons. Wanneer je shift lang of 5 keer achter elkaar indrukt nou net een popup veroorzaken. Dat wil je niet.
+- Windows toets + u
+- Ga naar Toetsenbord
+- Vink plaktoetsen uit
+- Vink ook meteen Wisseltoets uit
+- En vink ook Filtertoetsen uit
 
 Windows onzichtbaar maken
 
@@ -63,6 +75,11 @@ Bovenstaande kan ook via cmd
 Dit heb ik ook gedaan maar weet niet meer of dat nodig is 
 bcdedit.exe -set {globalsettings} bootuxdisabled on 
 
+Geen inlog gegevens hoeven in te voeren 
+- Windows toets + R
+- Type netplwiz
+- Vink uit dat gebruikers een wachtwoord moeten opgeven
+
 Tijdens inloggen geen gebruikers gegevens laten zien
 - Windows toets + r 
 - Type secpol.msc
@@ -81,6 +98,19 @@ Buroblad leeg maken
 - Ga naar computer configuratie > beheer sjablonen > Aanmelden 
 - Vink daar Duidelijke achtegrond aan
 - En als dit niet onthouden was eerder: Altijd aangepaste achtergrond gebruiken
+
+Als je virtual pinball kast draait wil je niet dat plots de screensaver aan gaat of je PC in standby schiet.
+- Windows toest + r
+- Type powercfg.cpl
+- Kies sowieso een profiel voor hoge prestaties
+- Zet scherm uitschakelen op Nooit
+- Zet slaapstand op Nooit
+- Opslaan
+
+Monitoren optimaal instellen
+
+In mijn geval stond monitor niet op de snelste modus. Zoek dus in je On Screen Display (OSD) in het menu of je monitor wel op de hoogste prestatie staat.
+
 
 
 ### Afmetingen
