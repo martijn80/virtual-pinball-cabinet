@@ -1,5 +1,8 @@
 ## Zelf een Virtual Pinball Cabinet bouwen
 
+[![Arcade buttons working via Xin Mo Controller in Pinball Fx3](https://i3.ytimg.com/vi/cidS5yXEcd4/hqdefault.jpg)](https://youtu.be/cidS5yXEcd4-Y)
+
+
 In februari 2020 heb ik besloten een eigen virtual pinball mini cabinet te gaan bouwen. Mini, of eigenlijk table top (voor op tafel), omdat de maten van een echte flipperkast veel te groot zijn voor mijn woning. Bovendien vind ik die kasten te log en lelijk. De echte maten en met name de verhoudingen worden wel door veel pinball software als uitgangspunt genomen, dus hou hier rekening mee. 
 
 Ik had nog twee ongebruikte 19" en 23,8" monitors die ik mooi als backbox en playfield kon gebruiken. De 19" is 5:4 dus bijna vierkant, perfect voor de backbox. Het playfield heeft normaal een 18,7:9 verhouding, de 23,8" monitor heeft helaas een 16:9 verhouding, 21:9 had mooier geweest, maar die heb ik niet liggen en kosten (door de bijzondere verhouding) nog steeds best wat duiten. 
@@ -28,6 +31,9 @@ Direct deze tafel openen bij het opstarten van de PC
 #### Installeren van Future Pinball
 
 todo 
+
+[![Future Pinball working 3D via Better Arcade Mode (BAM)](https://i3.ytimg.com/vi/Az5cY6s08-Y/hqdefault.jpg)](https://youtu.be/Az5cY6s08-Y)
+
 
 ##### Tafels downloaden
 
