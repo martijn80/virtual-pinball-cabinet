@@ -9,7 +9,7 @@ Ik had nog twee ongebruikte 19" en 23,8" monitors die ik mooi als backbox en pla
 
 Er zijn genoeg tekeningen online te vinden van het traditionele ontwerp van een pinball cabinet, maar zoals gezegd vind ik dit geen mooi ontwerp. Dus ben ik gaan schetsen en klooien in Fusion360 (een 3D CAD tekenprogramma) om te kijken welk ontwerp ik gaaf vind. Het doel is om een retro arcade achtige uitstraling te krijgen. Dus t-molding, ronde hoeken gecombineerd met hoekige lijnen en gave pinball artwork decals (bestickering) erop. Verder is een eis dat het playfield niet op de tafel rust, maar verhoogt (met pootjes oid), ivm koeling en speakers in de onderplaat (die lucht en bewegings ruimte moeten hebben). De hoek van het playfield moet ik nog mee spelen, maar ik verwacht iets van 10-15 graden. Tot slot wil ik graag een Kinect (van de XBOX360) bovenop de kast kunnrn zetten zodat mbv Better Arcade Mode (BAM) in Future Pinball een soort 3D weergave mogelijk is, waardoor het playfield er heel realistisch uitziet en je echt om objecten in het speelveld heen kunt kijken (door de headtracking van de Kinect).
 
-Het mooie aan Fusion360 is dat (als het goed is) je met je ontwerp naar een houtzagerij kan gaan en dat zij op basis van die tekeningen je planken kunnen "uitprinten", CNC-en heet dit. Daarnaast ontdek je door het klooien in 3D al vroeg knelpunten in je ontwerp, voordat je het laten produceren en je dan dus met een probleem zit. Dat scheelt heel wat frustratie, tijd en geld. En ik heb gemerkt dat je al gauw varianten en verbeteringen op je ontwerpen gaat maken, waardoor je soms heel anders eindigt met waarmee je begon (had ook zonde geweest van al het hout en materiaal). Voor het schetsen in Fusion was het handig dat ik alle maten van de onderdelen bij de hand had, vandaar de tabel met afmetingen.
+Het mooie aan Fusion360 is dat (als het goed is) je met je ontwerp naar een houtzagerij kan gaan en dat zij op basis van die tekeningen je planken kunnen "uitprinten", CNC-en heet dit. Daarnaast ontdek je door het klooien in 3D al vroeg knelpunten in je ontwerp, voordat je het laten produceren en je dan dus met een probleem zit. Dat scheelt heel wat frustratie, tijd en geld. En ik heb gemerkt dat je al gauw varianten en verbeteringen op je ontwerpen gaat maken, waardoor je soms heel anders eindigt met waarmee je begon (had ook zonde geweest van al het hout en materiaal). Voor het schetsen in Fusion was het handig dat ik alle maten van de onderdelen bij de hand had, vandaar de [tabel met afmetingen](#afmetingen).
 
 ### Pinball software
 
@@ -129,7 +129,7 @@ Monitoren optimaal instellen
 
 In mijn geval stond monitor niet op de snelste modus. Zoek dus in je On Screen Display (OSD) in het menu of je monitor wel op de hoogste prestatie staat.
 
-### Afmetingen
+### Afmetingen <a name="afmetingen"></a>
 
 Onderstaande onderdelen zijn nodig voor in of op de ombouw en dus handig tijdens het schetsen alle maten hiervan op een rijtje te hebben.
 
@@ -149,7 +149,7 @@ Onderstaande onderdelen zijn nodig voor in of op de ombouw en dus handig tijdens
 | Moederbord micro ATX | | | 17,00 cm | 17,00 cm
 | Voeding | | | 14,00 cm | 16,00 cm | 9,00 cm
 | Stekkerblok | | incl stekkers | 8,50 cm | 7,00 cm | 32,00 cm
-| Speakers ? |
+| [Speakers](https://beyondproducts.uk/2-way-sphere-speakers) | | | | 13,30 cm | 10,00 cm | 10,80 cm
 
 1. Let op de videokaart hoogte optellen bij die van het moederbord
 2. Alle monitoren hebben een VESA 10mm beugelbevestiging, maak de plank echter 15cm hoog, zodat ze wat vlees hebben om op te steunen
