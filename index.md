@@ -11,7 +11,7 @@ Er zijn genoeg tekeningen online te vinden van het traditionele ontwerp van een 
 
 Het mooie aan Fusion360 is dat (als het goed is) je met je ontwerp naar een houtzagerij kan gaan en dat zij op basis van die tekeningen je planken kunnen "uitprinten", CNC-en heet dit. Daarnaast ontdek je door het klooien in 3D al vroeg knelpunten in je ontwerp, voordat je het laten produceren en je dan dus met een probleem zit. Dat scheelt heel wat frustratie, tijd en geld. En ik heb gemerkt dat je al gauw varianten en verbeteringen op je ontwerpen gaat maken, waardoor je soms heel anders eindigt met waarmee je begon (had ook zonde geweest van al het hout en materiaal). Voor het schetsen in Fusion was het handig dat ik alle maten van de onderdelen bij de hand had, vandaar de [tabel met afmetingen](#afmetingen).
 
-[![Ontwerp in Fusion360](https://raw.githubusercontent.com/martijn80/virtual-pinball-cabinet/master/render.png)]
+![Fusion360 model](model.png)
 
 
 ### Pinball software
@@ -152,7 +152,7 @@ Onderstaande onderdelen zijn nodig voor in of op de ombouw en dus handig tijdens
 | Moederbord micro ATX | | | 17,00 cm | 17,00 cm
 | Voeding | | | 14,00 cm | 16,00 cm | 9,00 cm
 | Stekkerblok | | incl stekkers | 8,50 cm | 7,00 cm | 32,00 cm
-| [Speakers](https://beyondproducts.uk/2-way-sphere-speakers) | | | | 13,30 cm | 10,00 cm | 10,80 cm
+| [Speakers](https://beyondproducts.uk/2-way-sphere-speakers) | | | 13,30 cm | 10,00 cm | 10,80 cm
 
 1. Let op de videokaart hoogte optellen bij die van het moederbord
 2. Alle monitoren hebben een VESA 10mm beugelbevestiging, maak de plank echter 15cm hoog, zodat ze wat vlees hebben om op te steunen
