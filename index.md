@@ -192,7 +192,8 @@ Onderstaande onderdelen zijn nodig voor in of op de ombouw en dus handig tijdens
 
 Pinball FX3 kan je standaard met een keyboard of Xbox Controller bedienen. 
 
-Setup usb game controllers. Xin-Mo Controller. Properties > Test. 
-Installeer x360ce. Zorg dat de 
+Setup usb game controllers. Xin-Mo Controller. Properties > Test. Zorg dat je geen up/down/right/left assigned aan buttons. Dus alleen button 1-13.
+Installeer x360ce voor 32 bit
+
 
 
