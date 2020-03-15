@@ -1,9 +1,15 @@
 ## Zelf een Virtual Pinball Cabinet bouwen
 
+
+- [Inleiding](#inleiding)
+- [Software](#software)
+- [Windows configureren](#windows_conf)
+- [Arcade knoppen als Xbox controller instellen](#xbox)
+
 [![Arcade buttons working via Xin Mo Controller in Pinball Fx3](https://i3.ytimg.com/vi/cidS5yXEcd4/hqdefault.jpg)](https://youtu.be/cidS5yXEcd4-Y)
 
 
-In februari 2020 heb ik besloten een eigen virtual pinball mini cabinet te gaan bouwen. Mini, of eigenlijk table top (voor op tafel), omdat de maten van een echte flipperkast veel te groot zijn voor mijn woning. Bovendien vind ik die kasten te log en lelijk. De echte maten en met name de verhoudingen worden wel door veel pinball software als uitgangspunt genomen, dus hou hier rekening mee. 
+<a name="inleiding"></a>In februari 2020 heb ik besloten een eigen virtual pinball mini cabinet te gaan bouwen. Mini, of eigenlijk table top (voor op tafel), omdat de maten van een echte flipperkast veel te groot zijn voor mijn woning. Bovendien vind ik die kasten te log en lelijk. De echte maten en met name de verhoudingen worden wel door veel pinball software als uitgangspunt genomen, dus hou hier rekening mee. 
 
 Ik had nog twee ongebruikte 19" en 23,8" monitors die ik mooi als backbox en playfield kon gebruiken. De 19" is 5:4 dus bijna vierkant, perfect voor de backbox. Het playfield heeft normaal een 18,7:9 verhouding, de 23,8" monitor heeft helaas een 16:9 verhouding, 21:9 had mooier geweest, maar die heb ik niet liggen en kosten (door de bijzondere verhouding) nog steeds best wat duiten. 
 
@@ -14,7 +20,7 @@ Het mooie aan Fusion360 is dat (als het goed is) je met je ontwerp naar een hout
 ![Fusion360 model](model.png)
 
 
-### Pinball software
+### Pinball software<a name="software"></a>
 
 Parallel aan het tekenen van het cabinet in Fusion360 ben ik aan de slag gegaan met het installeren en configureren van de Pinball software. Ik speelde uitsluitend op de PS4 Pinball FX3 en heb alle tot nu 96 tafels aangeschaft. De kasten die zij hebben gemaakt hebben animaties, scenes en gameplay, bijna videogame achtig dat onmogelijk op een echte flipperkant zou kunnen, maar dus wel op een virtuele! Dit is ook uitgebracht voor de PC via Steam op Windows met een zgn cabinet mode. Cabinet mode maakt het mogelijk dat je de DMD (scores) en backglass op een tweede (of derde) scherm kunt weergeven. Gebruik niet de versie via de Windows store - daar werkt de cabinet mode niet. Daarnaast bestaat er een enorme community van mensen die zelf digitale/virtual pinball kasten maken mbv Future Pinball. Dit is dus gratis, maar is niet plug and play zoals FX3 en de originele bedenkders van de kast krijgen hier dus geen royalties oid voor terug. Ik steun die bedenkers graag en betaal met liefde die paar euro's voor aan commerciele kasten. Met als win/win dat de betaalde software veel beter en sneller aan de praat is te krijgen. Het configureren en aan de praat krijgen van Future Pinball en BAM is echt veel handwerk, trial & error en diverse fora afspeuren.
 
@@ -31,6 +37,18 @@ Direct deze tafel openen bij het opstarten van de PC
 - Zet de shortcut in de map neer die door het vorige commande werd geopend
 - Wanneer je nu herstart, start deze tafel gelijk
 
+##### Cabinet modus
+
+Goed zetten van de schermen
+
+| Dot matrix | |
+|---|:---:|
+| Horizontal pos | 0
+| Vertical pos | -300
+| Horizontal size | 1080
+| Vertical size | 270
+
+
 #### Installeren van Future Pinball
 
 todo 
@@ -44,7 +62,7 @@ Instellen van de juiste kijkhoek
 
 todo F6 
 
-### Windows configureren
+### Windows configureren<a name="windows_conf"></a>
 
 Als de pinball machine opstart wil je dat je systeem zo clean en snel mogelijk is en zo weinig mogelijk sporen van Windows toont. Je hebt ook geen muis of toetsenbord (al zou ik wel ergens een USB port maken voor het geval dat), dus wil je de dat alleen wat je nodig hebt automatisch opstart. Ook al heb je inloggen met wachtwoord uitgezet, toch zal windows nog even een achtergrond en welcome tonen tijdens het inloggen. Het is mij niet gelukt helemaal weg te krijgen, maar met onderstaande instellingen wel zo onzichtbaar mogelijk.
 
@@ -161,7 +179,7 @@ Onderstaande onderdelen zijn nodig voor in of op de ombouw en dus handig tijdens
 5. De hoek van het playfield moet gemeten vanaf een loodlijn vanaf 50 graden richting speler hoofd/blikveld. Vaak 5-6 graden tov horizontaal. Ik snap even niet hoe je dat kan verenigen.
 6. De standaard afstand tot het glas in een traditionele pinball kast is onderop 2" en aan de achterkant 4.5" en glasdikte is 3/16" dat is circa 4,7mm
 
-### Benodigde knoppen 
+### Benodigde arcade knoppen 
 
 - 1 x grote ronde launch button 63mm, inbouw 24 mm diameter, 55 mm montage diepte
 - 2 x 2 flipper buttons (naast de flipper, eentje voor nudge of magna safe), 34 mm en inbouw 24 mm en 55 mm montage diepte
@@ -169,5 +187,12 @@ Onderstaande onderdelen zijn nodig voor in of op de ombouw en dus handig tijdens
 - Extra ball
 - Exit
 - On/Off
+
+### Arcade knoppen door windows laten herkennen als een Xbox Controller<a name="xbox"></a>
+
+Pinball FX3 kan je standaard met een keyboard of Xbox Controller bedienen. 
+
+Setup usb game controllers. Xin-Mo Controller. Properties > Test. 
+Installeer x360ce. Zorg dat de 
 
 
